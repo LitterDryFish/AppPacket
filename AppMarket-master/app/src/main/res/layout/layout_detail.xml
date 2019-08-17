@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    <ScrollView 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="50dp">
+        <LinearLayout 
+            android:padding="5dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <FrameLayout 
+                android:id="@+id/app_info_fl"
+                android:background="@drawable/list_view_item_bg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            </FrameLayout>
+            <FrameLayout 
+                android:id="@+id/app_safe_fl"
+                android:background="@drawable/list_view_item_bg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            </FrameLayout>
+            <HorizontalScrollView 
+                android:background="#666666"
+                android:id="@+id/app_pic_hsv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            </HorizontalScrollView>
+             <FrameLayout
+                android:id="@+id/app_des_fl"
+                android:background="@drawable/list_view_item_bg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            </FrameLayout>
+        </LinearLayout>
+    </ScrollView>
+    <FrameLayout
+        android:id="@+id/detail_download_fl"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/detail_bottom_bg">
+    </FrameLayout>
+</RelativeLayout>

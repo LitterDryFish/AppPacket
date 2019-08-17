@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.admin.appmarket.activity.CommunityNotification"
+    tools:showIn="@layout/activity_community_notification">
+
+   <android.support.design.widget.NavigationView
+       android:id="@+id/notification_nav_view"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       app:menu="@menu/community_notification_menu">
+   </android.support.design.widget.NavigationView>
+
+</LinearLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/answer_me_item"
+            android:icon="@drawable/ic_community"
+            android:title="回复我的" />
+        <item
+            android:id="@+id/star_me_item"
+            android:icon="@drawable/paid_project"
+            android:title="点赞我的" />
+        <item
+            android:id="@+id/attention_me_item"
+            android:icon="@drawable/my_app_packet"
+            android:title="关注我的" />
+        <item
+            android:id="@+id/important_message_item"
+            android:icon="@drawable/my_page"
+            android:title="重要事件" />
+    </group>
+
+</menu>

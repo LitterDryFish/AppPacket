@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/community_notification_item"
+            android:icon="@drawable/ic_community"
+            android:title="社区通知" />
+        <item
+            android:id="@+id/project_paid_item"
+            android:icon="@drawable/paid_project"
+            android:title="已购项目" />
+        <item
+            android:id="@+id/my_app_packet_item"
+            android:icon="@drawable/my_app_packet"
+            android:title="我的软件迁移组合" />
+        <item
+            android:id="@+id/my_page_item"
+            android:icon="@drawable/my_page"
+            android:title="我的主页" />
+    </group>
+
+    <item android:title="设置与帮助">
+        <menu>
+            <item
+                android:id="@+id/setting_item"
+                android:icon="@drawable/my_settings_click"
+                android:title="设置" />
+            <item
+                android:id="@+id/help_item"
+                android:icon="@drawable/help"
+                android:title="帮助与客服" />
+            <item
+                android:id="@+id/suggestion_item"
+                android:icon="@drawable/suggestion"
+                android:title="问题建议"/>
+            <item
+                android:id="@+id/update_item"
+                android:icon="@drawable/update"
+                android:title="检查更新"/>
+
+            <item
+                android:id="@+id/about_us_item"
+                android:icon="@drawable/about_us"
+                android:title="关于我们"/>
+
+        </menu>
+    </item>
+
+</menu>
