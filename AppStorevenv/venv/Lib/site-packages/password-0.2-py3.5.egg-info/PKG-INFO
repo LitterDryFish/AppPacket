@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: password
+Version: 0.2
+Summary: A password attribute that stores hashes
+Home-page: UNKNOWN
+Author: Szymon Pyżalski
+Author-email: zefciu <szymon@pythonista.net>
+License: BSD
+Description: UNKNOWN
+Platform: UNKNOWN

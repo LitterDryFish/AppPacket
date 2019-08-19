@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ghhj</title>
+
+</head>
+<body>
+{% for user in users.all %}
+
+
+    {{ user.username }}
+    <br>
+
+{% endfor %}
+
+<form action="/test/" method="post">
+    <input type="text" name="email" id="inputUseremail" class="form-control" placeholder="email" required autofocus>
+    <input type="text" name="name" id="inputUsername" class="form-control" placeholder="name" required autofocus>
+    <button type="submit">提交</button>
+</form>
+</body>
+</html>
