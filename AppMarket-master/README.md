@@ -8,8 +8,3 @@
 - buildToolsVersion "25.0.2"
 - compile 'com.android.support:appcompat-v7:25.3.1'
 
-
-
-**AppMarket预览：**
-
-![](./appmarket预览.gif)
